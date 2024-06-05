@@ -1,0 +1,57 @@
+.post-image img {
+    width: 100%;
+    display: block;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.post-user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.post-interactions-left {
+    
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.post-likes {
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.post-description {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.interactions-right {
+    float: right;
+
+    position: relative;
+    
+    transform: translateY(-100%);
+    
+    
+
+}
